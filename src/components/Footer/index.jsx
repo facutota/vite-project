@@ -10,6 +10,7 @@ const Footer = () => {
                         <h5 className="text-uppercase mb-4 font-weight-bold">Alumnos</h5>
                         <p>Medina Carranza Facundo Martin</p>
                         <p>Zubillaga Javier</p>
+                        <p>Juarez Veronica</p>
                     </div>
                 </div>
                 <hr className="mb-4" />
