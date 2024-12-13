@@ -19,7 +19,7 @@ const App = () => {
 
     return (
         <Router>
-            <div className="flex flex-col  "> {/* Asegúrate de que el contenedor principal ocupe toda la altura */}
+            <div className="flex flex-col  "> 
                 <Header />
                 <main className="flex-grow flex flex-col items-center justify-between p-8 lg:p-24 ">
                     <Routes>
@@ -34,7 +34,7 @@ const App = () => {
                         <Route path="*" element={<NotFound />} />
                     </Routes>
                 </main>
-                <Footer /> {/* Asegúrate de que el Footer esté aquí */}
+                <Footer /> 
             </div>
         </Router>
     );
